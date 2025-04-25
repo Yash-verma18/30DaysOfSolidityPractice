@@ -1,0 +1,7 @@
+# Ignore Remix and Hardhat/Foundry artifact folders
+.deps/
+.states/
+artifacts/
+
+# Ignore artifact folders inside each day's folder (recursive)
+**/artifacts/
